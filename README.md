@@ -9,3 +9,7 @@ The scanner works by creating a TCP socket and using the `connect()` function to
 - Detects open ports by attempting TCP connections
 - Uses Windows Winsock networking API
 - Provides basic port status output
+
+
+windows compile:
+g++ .\portscanner.cpp -o portscanner -lws2_32
